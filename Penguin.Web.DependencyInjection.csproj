@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
-    <PackageReference Include="Penguin.Web.Testing" Version="1.0.6" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.10-63707652289" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.10-T9LXGUJ" />
+    <PackageReference Include="Penguin.Web.Testing" Version="1.0.6-T9LXGUJ" />
   </ItemGroup>
 </Project>
