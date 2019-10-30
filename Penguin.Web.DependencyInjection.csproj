@@ -5,11 +5,13 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.DependencyInjection</PackageProjectUrl>
     <Description>Provides a PerRequestScopeFactory implementation allowing for request-based scope generation in the Penguin DependencyInjection library. Also contains methods for creating dummy scopes with a few mock request objects (ex ISession) for unit testing request scoped methods</Description>
     <Version>1.0.5</Version>
+    <AssemblyName>Penguin.Web.DependencyInjection</AssemblyName>
+    <RootNamespace>Penguin.Web.DependencyInjection</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
-    <PackageReference Include="Penguin.Web.Testing" Version="1.0.7-T9M1HHH" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9M1K2Y" />
+    <PackageReference Include="Penguin.Web.Testing" Version="1.0.7-T9M2XAX" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9M2XAX" />
   </ItemGroup>
 </Project>
