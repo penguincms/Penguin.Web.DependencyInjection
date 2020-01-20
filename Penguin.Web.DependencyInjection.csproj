@@ -10,8 +10,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
-    <PackageReference Include="Penguin.Web.Testing" Version="1.0.7-T9MJL4F" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9MJL4F" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
+    <PackageReference Include="Penguin.Web.Testing" Version="1.0.7-T9QC72V" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9QC72V" />
   </ItemGroup>
 </Project>
