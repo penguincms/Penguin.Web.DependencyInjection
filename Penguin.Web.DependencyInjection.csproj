@@ -7,6 +7,7 @@
     <Version>1.0.5</Version>
     <AssemblyName>Penguin.Web.DependencyInjection</AssemblyName>
     <RootNamespace>Penguin.Web.DependencyInjection</RootNamespace>
+    <DocumentationFile>Penguin.Web.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
