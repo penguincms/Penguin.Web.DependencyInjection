@@ -10,6 +10,7 @@ namespace Penguin.Web.DependencyInjection
     public class PerRequestScopeFactory : IServiceScopeFactory
     {
         #region Constructors
+
         /// <summary>
         /// Constructs a new instance of this factory
         /// </summary>
