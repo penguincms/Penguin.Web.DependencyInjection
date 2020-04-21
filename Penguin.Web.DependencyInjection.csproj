@@ -12,7 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
-    <PackageReference Include="Penguin.Web.Testing" Version="1.0.7-T9UPDS1" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9UPDS1" />
+    <PackageReference Include="Penguin.Web.Testing" Version="1.0.7-T9UW4G4" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9UW4G4" />
   </ItemGroup>
 </Project>
