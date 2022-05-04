@@ -42,7 +42,10 @@ namespace Penguin.Web.DependencyInjection
         /// Constructs a new Request based service scope
         /// </summary>
         /// <returns>A new Request based service scope</returns>
-        public IServiceScope CreateScope() => new PerRequestServiceScope();
+        public IServiceScope CreateScope()
+        {
+            return new PerRequestServiceScope();
+        }
 
         #endregion Methods
     }
