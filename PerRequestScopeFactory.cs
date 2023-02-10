@@ -28,8 +28,8 @@ namespace Penguin.Web.DependencyInjection
         /// <returns>A Dummy request scope for use in unit testing, with mock objects representing things like Session</returns>
         public static PerRequestServiceScope CreateDummy()
         {
-            PerRequestServiceScope ServiceScope = new PerRequestServiceScope();
-            DefaultHttpContext context = new DefaultHttpContext
+            PerRequestServiceScope ServiceScope = new();
+            DefaultHttpContext context = new()
             {
                 Session = new MockHttpSession()
             };
