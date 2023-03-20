@@ -2,7 +2,7 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Web.DependencyInjection</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Web.DependencyInjection</PackageProjectUrl>
     <Description>Provides a PerRequestScopeFactory implementation allowing for request-based scope generation in the Penguin DependencyInjection library. Also contains methods for creating dummy scopes with a few mock request objects (ex ISession) for unit testing request scoped methods</Description>
     <Version>5.0.5</Version>
     <AssemblyName>Penguin.Web.DependencyInjection</AssemblyName>
